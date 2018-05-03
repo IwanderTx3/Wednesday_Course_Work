@@ -16,7 +16,7 @@ elif operator == '+':
 elif operator == '-':
     result = calc_functions.subtract(first_number,second_number)
 else:
-    print("Invailid Operator")
+    result = "Invailid Operator"
 
     
 print(f"{first_number}  {operator}  {second_number} = {result}")    
